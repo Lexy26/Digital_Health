@@ -26,7 +26,7 @@ Selecting an element highlights only the nodes and connections associated with t
 
 ### Example with filters applied
 
-![Filtered dashboard](images/157493)
+<img src="images/Pasted%20image%2020260523111540.png" alt="Dashboard filter selection" width="157"> <img src="images/Pasted%20image%2020260523111523.png" alt="Dashboard with filters applied" width="493">
 
 ### Exploring a single cancer type
 
@@ -34,17 +34,17 @@ When a single cancer type is selected, the dashboard allows users to explore it 
 
 #### Single cancer overview
 
-![Single cancer overview](images/151495)
+<img src="images/Pasted%20image%2020260523112021.png" alt="Single cancer selection" width="151"> <img src="images/Pasted%20image%2020260523111946.png" alt="Single cancer overview" width="495">
 
 #### Histology overview
 
-![Histological subtype overview](images/134496)
+<img src="images/Pasted%20image%2020260523112153.png" alt="Histology selection" width="134"> <img src="images/Pasted%20image%2020260523112218.png" alt="Histology overview" width="496">
 
 #### Selecting a histological subtype
 
-![Selected histological subtype](images/648)
+<img src="images/Pasted%20image%2020260523112352.png" alt="Selected histological subtype" width="648">
 
-## Project structure
+### Project structure
 
 - `app.py` — Dash interface and callbacks.
 - `loader.py` — clinical data loading and preparation.
@@ -53,7 +53,7 @@ When a single cancer type is selected, the dashboard allows users to explore it 
 - `filtering.ipynb` — data-processing notebook.
 - `images/` — screenshots used in this README.
 
-## Running the dashboard locally
+### Running the dashboard locally
 
 With Python installed, install the main dependencies:
 ```bash
